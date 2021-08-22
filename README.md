@@ -54,7 +54,7 @@ To add several script files to one page  - use several script tags:
 # JavaScript Output
 
 ## JavaScript can "_display_" data in different ways:
-> <p>Writing into an HTML element, using <span style="color:#C77474">  innerHTML</span>.</p>
+> <p>Writing into an HTML element, using <strong style="color:#C77474">  innerHTML</strong>.</p>
 > 
 > <p>Writing into the HTML output using <span style="color:#C77474">  document.write()</span>.</p>
 > 
