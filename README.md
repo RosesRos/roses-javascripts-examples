@@ -56,20 +56,20 @@ To add several script files to one page  - use several script tags:
 ## JavaScript can "_display_" data in different ways:
 > <p>Writing into an HTML element, using <strong style="color:#C77474">  innerHTML</strong>.</p>
 > 
-> <p>Writing into the HTML output using <span style="color:#C77474">  document.write()</span>.</p>
+> <p>Writing into the HTML output using <strong style="color:#C77474">  document.write()</strong>.</p>
 > 
-> <p>Writing into an alert box, using <span style="color:#C77474">  window.alert()</span>.</p>
+> <p>Writing into an alert box, using <strong style="color:#C77474">  window.alert()</strong>.</p>
 > 
-> <p>Writing into the browser console, using <span style="color:#C77474">  console.log().</span>.</p>
+> <p>Writing into the browser console, using <strong style="color:#C77474">  console.log().</strong>.</p>
 
 #
 
 # Using innerHTML
-<p>To access an HTML element, JavaScript can use the <span style="color:#C77474">  document.getElementById(id)</span> method.</p>
+<p>To access an HTML element, JavaScript can use the <strong style="color:#C77474">  document.getElementById(id)</strong> method.</p>
 
 ### **Example:**
 ### JavaScript Multiplication Table
-<p><span style="color:#C77474">File called calc.js</span></p>
+<p><strong style="color:#C77474">File called calc.js</strong></p>
 
 ```sh
 var rows = prompt("How many rows for your multiplication table?");
@@ -97,7 +97,7 @@ function createTable(rows, cols) {
     document.getElementById("demo").innerHTML = output;
 }
 ```
-<p><span style="color:#C77474">File called index.html</span></p>
+<p><strong style="color:#C77474">File called index.html</strong></p>
 
 ```sh
 <html>
@@ -116,5 +116,5 @@ function createTable(rows, cols) {
 </body>
 </html>
 ```  
-[![TRY](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript/index.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript/index.html)
 
