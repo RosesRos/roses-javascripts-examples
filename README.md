@@ -123,7 +123,7 @@ function createTable(rows, cols) {
 
 ### Create a sample form program that collects the first name, last name, email, user id, password and confirms password from the user. All the inputs are mandatory and email address entered should be in correct format. Also, the values entered in the password and confirm password textboxes should be the same. After validating using JavaScript, In output display proper error messages in red color just next to the textbox where there is an error.
 
- <p><strong style="color:#C77474">javascript code in the file called <em>main.js</em></strong></p>
+<p><strong style="color:#C77474">javascript code in the file called <em>main.js</em></strong></p>
 
 
 ```sh
@@ -179,7 +179,6 @@ function finalValidate() {
        document.getElementById("errFinal").innerHTML = "All the data you entered is correct!!!";
 }
 ```
-
 <p><strong style="color:#C77474">HTML CODE</strong></p>
 
 ```sh
