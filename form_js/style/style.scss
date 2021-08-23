@@ -1,0 +1,29 @@
+$myWidth: 300PX;
+$myHight: 30px;
+$myColor: #226C33;
+$secondColor: white;
+$mainFontsize: 24px;
+
+body {
+    background-color: $myColor;
+}
+
+table {
+    margin-left: 20%;
+}
+
+td {
+    color: $secondColor;
+    font-size: $mainFontsize;
+}
+
+input {
+    width: $myWidth;
+    height: $myHight;
+}
+
+.btn {
+    width: 100%;
+    height: 30px;
+    padding: 5px;
+}
