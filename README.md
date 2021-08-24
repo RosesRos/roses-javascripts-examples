@@ -239,3 +239,45 @@ function finalValidate() {
 </body>
 ```
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/form_js/demo.html)
+
+# **example-3:**
+
+### Display a simple message "Welcome!!!" on your demo webpage and when the user hovers over the message, a popup should be displayed with a message "Welcome to my WebPage!!!".
+
+<p><strong style="color:#C77474">javascript code, css code, html code</strong></p>
+
+```sh
+<html>
+<head>
+<title>Event!!!</title>
+
+<script type="text/javascript">
+    
+    function trigger() {
+        document.getElmentById("demo").addEventListener("mouseover", "popup");
+
+        function popup(){
+            alert("Welcome to my page!!!");
+        }
+    }
+
+</script>
+
+<style>
+    
+    p {
+        font-size: 50px;
+        position: fixed;
+        left: 550px;
+        top: 300px;
+    }
+
+</style>
+</head>
+<body onload="trigger();">
+  
+  <p id="hover">Welcome!!!</p>
+
+</body>
+</html>
+```
