@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event!!!</title>
+     
+    <script type="text/javascript">
+        
+        function trigger() {
+            document.getElementById("hover").addEventListener("mouseover", poput);
+
+            function poput() {
+                alert("Welcome to my page!!!")
+            }
+        }
+    
+    </script>
+
+    <style>
+
+        p {
+            font-size: 50px;
+            position: fixed;
+            left: 550px;
+            top: 300px;
+        }
+    </style>
+</head>
+<body onload="trigger();">
+
+    <p id="hover">Welcome!!!</p>
+    
+</body>
+</html>

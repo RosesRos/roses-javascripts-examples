@@ -254,7 +254,7 @@ function finalValidate() {
 <script type="text/javascript">
     
     function trigger() {
-        document.getElmentById("demo").addEventListener("mouseover", "popup");
+        document.getElmentById("hover").addEventListener("mouseover", "popup");
 
         function popup(){
             alert("Welcome to my page!!!");
