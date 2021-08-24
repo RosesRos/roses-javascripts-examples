@@ -283,3 +283,13 @@ function finalValidate() {
 ```
 
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/form_js/demo1.html)
+
+# **example-4:**
+## Counter-App
+
+## Key concepts covered:
+- document.querySelector()
+- addEventListener()
+- textContent()
+
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/counter_app/project_files/demo.html)
