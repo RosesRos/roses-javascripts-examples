@@ -304,3 +304,59 @@ function finalValidate() {
 - textContent()
 
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/counter_app/project_files/demo.html)
+
+# **Example-4:**
+
+## Background Color Change App
+In this app, the background color of the canvas changes when the user clicks on a button.
+
+<h2 style="color:#C77474">Key concepts covered :</h2>
+
+- eventListener()
+- Array
+- Math.random()
+
+### HTML file demo.html
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript Color Changing App</title>
+
+</head>
+<body>
+    <div id="canvas">
+        <h1>my background color will changed when my button below is clicked.</h1>
+    </div>
+
+    <button id="button">Click me!</button>
+
+<script src="app.js"></script>
+</body>
+</html>
+```
+### Javascript code
+
+```sh
+#select colors
+let colors = ["red", "blue", "yellow", "orange", "skyblue", "green", "yellowgreen", "purple", "black", "gray"]
+
+# change the background of canvas when button is clicked
+
+let button = document.getElementById('button');
+
+button.addEventListener('click', function() {
+    # select a random number between 0 - 6
+    let index = parseInt((Math.random()*colors.length)+1);
+    #grab the canvas
+    let canvas = document.getElementById('canvas');
+
+    canvas.style.background = `${colors[index]}`
+})
+```
+
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)]()
