@@ -1,0 +1,11 @@
+@media all and (min-width: 450px) and (max-width: 630px) {
+    #canvas {
+        width: 450px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 450px) {
+    #canvas {
+        width: 320px;
+    }
+}
