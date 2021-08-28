@@ -8,6 +8,8 @@ You can find and get examples with code source on these repositories 👀
 
 [![machine-learning](https://img.shields.io/badge/machine_learning-click%20here-blue?style=for-the-badge&logo=python)](https://facesar.github.io/machine-learning-codes/)
 
+[![php_codes](https://img.shields.io/badge/php_codes-click%20here-blue?style=for-the-badge&logo=php)](https://facesar.github.io/php-source-codes/)
+
 
 # JavaScript ![JavaScript](https://img.shields.io/badge/--0E2447?style=for-the-badge&logo=javascript&logocolor=6E8177)
 
