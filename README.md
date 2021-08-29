@@ -361,4 +361,96 @@ button.addEventListener('click', function() {
 })
 ```
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)]()
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/Background_App/demo.html)
+
+# **Example-5:**
+
+## Calculator
+
+The main objective of this project is to perform the basic functionality ```(+,-,*,/)``` of the calculator.
+
+<h2 style="color:#C77474">Key concepts covered :</h2>
+
+- DOM Manipulation
+- document.querySelector()
+- addEventListener()
+- Immediately Invoked Function Expressions
+- textContent
+
+### HTML file demo.html
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JavaScript_Calculator-code</title>
+
+</head>
+<body>
+    <main>
+        <div class="main">
+            <div class="container1">
+                <h1>A simple calculator</h1>
+                <div class="about">
+                    <div class="about_btn">
+                        <a href="#" id="howWorkBtn" class="about_btn_link">How do it work?</a>
+                    </div>
+                    <div>
+                        <ul id="operationsList" class="list">
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+<script src="app.js"></script>
+</body>
+</html>
+```
+
+### Javascript code
+```sh
+let numbers = document.querySelectorAll(".number"),
+    operations = document.querySelectorAll(".operation"),
+    decimalBtn = document.getElementById("decimal"),
+    clearBtns = document.querySelectorAll(".clear_btn"),
+    resultBtn = document.getElementById("result"),
+    howWorkBtn = document.getElementById("howWorkBtn"),
+    display = document.getElementById("display"),
+    MemoryCurrentNumber = 0,
+    MemoryNewNumber = false,
+    MemoryPendingOperation = "",
+    operationsList = document.getElementById("operationsList");
+
+for (let i = 0; i < numbers.length; i++) {
+    let number = numbers[i];
+    number.addEventListener("click" function (e) {
+        numberPress(e.target.textContent);
+    });
+};
+
+for (let i = 0; i < clearBtns.length; i++) {
+    let clearBtn = clearBtns[i];
+    clearbtn.addEventListener("click", function (e) {
+        clear(e.srcElement.id);
+    });
+};
+
+for (let i = 0; i < operations.length; i++) {
+    let operationBtn = operations[i];
+    operationBtn.addEventListener("click", function (e) {
+        operation(e.target.textContent);
+    });
+};
+```
+
+you can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/javascript_calculator)
+
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript_calculator/demo.html)
+
+
