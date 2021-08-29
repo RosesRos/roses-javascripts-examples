@@ -1,0 +1,113 @@
+body {
+    width: 90%;
+    max-width: 900px;
+    margin: 2em auto;
+    font: .9em/1.2 Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0.1fr));
+    grid-gap: 20px;
+}
+
+.container1 {
+    grid-column: 10;
+    grid-row: 1;
+}
+
+.main .container1 h1 {
+    font-size: 5rem;
+    color: white;
+}
+
+.about_btn {
+    padding: 10px;
+    font-size: 1rem;
+    background-color: white;
+    width: 180px;
+    height: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #232323,
+            -5px -5px 10px #232323;
+    display: flex;
+    align-items: center;
+}
+
+.about_btn a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #1AAFB6;
+    margin-left: 18px;;
+}
+
+.container {
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5)), url("lizard.png");
+    background-size: cover;
+    border-radius: 10% 1%;
+    box-shadow: 10px 10px 30px #232323,
+            -10px -10px 30px #232323;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+    margin-top: 10%;
+}
+
+.calc_display-input {
+    width: 450px;
+    height: 100px;
+    background-color: black;
+    border-radius: 10px;
+    margin-top: 35px;
+    margin-left: 21px;
+    color: white;
+    font-size: 80px;
+    text-align: right;
+}
+
+.list {
+    color: white;
+    font-size: 20px;
+    line-height: 2rem;
+}
+
+.calc_buttons .calc_table {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.calc_buttons .calc_buttons-row td {
+    padding: 10px;
+}
+
+.calc_buttons .btn {
+    width: 90px;
+    height: 50px;
+    border: 2px solid #eaeaea;
+    font-size: 27px;
+    color: #666666;
+    text-transform: uppercase;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: inset 5px 5px rgba(61, 61, 61, 0.6),
+                inset -5px -5px #3D3D3D;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+.calc_buttons-row .btn_col {
+    width: 200px;
+}
+
+.calc_buttons-row .btn_row {
+    width: 60px;    
+    height: 130px;
+    margin-top: -90px;
+    margin-left: 12px;
+}
