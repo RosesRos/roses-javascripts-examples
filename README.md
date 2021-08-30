@@ -529,7 +529,7 @@ The main functionality of this project is that , when an arrow is clicked, the n
 })();
 ```
 
-You can fide complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/image_slider)
+You can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/image_slider)
 
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/image_slider/demo.html)
 
