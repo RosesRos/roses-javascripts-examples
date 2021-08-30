@@ -453,4 +453,83 @@ you can find complete code [here](https://github.com/facesar/roses-javascripts-e
 
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript_calculator/demo.html)
 
+# **Example-6:**
+
+## Image Slider Project
+
+The main functionality of this project is that , when an arrow is clicked, the next image in the array shows up.
+
+<h2 style="color:#C77474">Key concepts covered :</h2>
+
+- DOM Manipulation
+- Arrays
+- forEach()
+- eventListeners
+- JavaScript CSS Manipulation
+
+### HTML file demo.html
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image_Slider_Project</title>
+
+</head>
+<body>
+
+<div class="container">
+         <div class="row max-height align-items-center">
+             <div class="col-9 col-md-10 mx-auto img-container">
+                <button class="btn btn-left"><i class="fas fa-caret-left"></i></button>
+                <button class="btn btn-right"><i class="fas fa-caret-right"></i></button>
+             </div>
+         </div>
+     </div>
+
+<script src="script.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<!--jquery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
+```
+
+### Javascript code
+```sh
+(function() {
+    const pictures = ["count1", "count2", "count3", "count4", "count5"];
+
+    #Select both left and right button. addEventListener
+    const buttons = document.querySelectorAll(".btn")
+    const imageDiv = document.querySelector(".img-container")
+    let counter = 0
+
+    buttons.forEach(function (button) {
+        button.addEventListener('click', function (e) {
+            if (button.classList.contains('btn-left')) {
+                counter--
+                if (counter < 0) {
+                    counter = pictures.length -1
+                }
+                imageDiv.style.backgroundImage = `url('./images/${pictures[counter]}.jpeg')`
+            }
+            if (button.classlist.contains('btn-right')) {
+                counter++
+                if (counter > pictures.length -1) {
+                    counter = 0
+                }
+                imageDiv.style.backgroundImage = `url('./images/${pictures[counter]}.jpeg')`
+            }
+        })
+    })
+})();
+```
+
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)]()
+
+
 
