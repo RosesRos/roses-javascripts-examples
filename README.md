@@ -592,6 +592,6 @@ function currentTime() {
 }
 ```
 
-you can find complete code [here]()
+you can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/javascript_digital_clock)
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)]()
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript_digital_clock/demo.html)
