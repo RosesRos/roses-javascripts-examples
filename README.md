@@ -533,5 +533,65 @@ You can find complete code [here](https://github.com/facesar/roses-javascripts-e
 
 [![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/image_slider/demo.html)
 
+# **Example-7:**
 
+## Digital Clock
 
+The main objective of this project is to build a digital clock with date(Day, Month, Year).
+
+<h2 style="color:#C77474">Key concepts covered :</h2>
+
+- setTimeInterval()
+- Date()
+- Arrays
+- innerHTML
+
+### HTML file demo.html
+```sh
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Image_Slider_Project</title>
+
+</head>
+<body>
+
+    <div id="dayIntro">
+        <p id="dayName"></p>
+    </div>
+
+    <div class="container">
+        <!--display time-->
+        <div class="dispClock">
+            <div id="time"></div>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
+```
+
+### Javascript code
+```sh
+setInterval(currentTime, 1000);
+
+function currentTime() {
+    let time = new Date();
+    let nameDay = time.getDay();
+    let month = time.getMonth();
+    let year = time.getFullYear();
+    let date = time.getDate();
+    let hour = time.getHours();
+    let min = time.getMinutes();
+    let sec = time.getSeconds();
+}
+```
+
+you can find complete code [here]()
+
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)]()
