@@ -2,15 +2,6 @@
 
 You can find and get examples with code source on these repositories 👀
 
-[![facesar](https://img.shields.io/badge/facesar-click%20here-blue?style=for-the-badge&logo=github)](https://facesar.github.io/)
-
-[![python_codes](https://img.shields.io/badge/python_codes-click%20here-blue?style=for-the-badge&logo=python)](https://facesar.github.io/python_codes/)
-
-[![machine-learning](https://img.shields.io/badge/machine_learning-click%20here-blue?style=for-the-badge&logo=python)](https://facesar.github.io/machine-learning-codes/)
-
-[![php_codes](https://img.shields.io/badge/php_codes-click%20here-blue?style=for-the-badge&logo=php)](https://facesar.github.io/php-source-codes/)
-
-
 # JavaScript ![JavaScript](https://img.shields.io/badge/--0E2447?style=for-the-badge&logo=javascript&logocolor=6E8177)
 
 
@@ -130,7 +121,7 @@ function createTable(rows, cols) {
 </body>
 </html>
 ```  
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript/index.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/javascript/index.html)
 
 # **example-2:**
 
@@ -251,7 +242,7 @@ function finalValidate() {
 <script src="main.js"></script>
 </body>
 ```
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/form_js/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/form_js/demo.html)
 
 # **example-3:**
 
@@ -295,7 +286,7 @@ function finalValidate() {
 </html>
 ```
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/form_js/demo1.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/form_js/demo1.html)
 
 # **example-4:**
 ## Counter-App
@@ -305,7 +296,7 @@ function finalValidate() {
 - addEventListener()
 - textContent()
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/counter_app/project_files/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/counter_app/project_files/demo.html)
 
 # **Example-4:**
 
@@ -361,7 +352,7 @@ button.addEventListener('click', function() {
 })
 ```
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/Background_App/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/Background_App/demo.html)
 
 # **Example-5:**
 
@@ -449,9 +440,9 @@ for (let i = 0; i < operations.length; i++) {
 };
 ```
 
-you can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/javascript_calculator)
+you can find complete code [here](https://github.com/RosesRos/roses-javascripts-examples/tree/master/javascript_calculator)
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript_calculator/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/javascript_calculator/demo.html)
 
 # **Example-6:**
 
@@ -529,9 +520,9 @@ The main functionality of this project is that , when an arrow is clicked, the n
 })();
 ```
 
-You can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/image_slider)
+You can find complete code [here](https://github.com/RosesRos/roses-javascripts-examples/tree/master/image_slider)
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/image_slider/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/image_slider/demo.html)
 
 # **Example-7:**
 
@@ -592,6 +583,6 @@ function currentTime() {
 }
 ```
 
-you can find complete code [here](https://github.com/facesar/roses-javascripts-examples/tree/master/javascript_digital_clock)
+you can find complete code [here](https://github.com/RosesRos/roses-javascripts-examples/tree/master/javascript_digital_clock)
 
-[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://facesar.github.io/roses-javascripts-examples/javascript_digital_clock/demo.html)
+[![TRY IT YOURSELF](https://img.shields.io/static/v1?label=&message=TRY-IT-YOURSELF&color=<COLOR>)](https://RosesRos.github.io/roses-javascripts-examples/javascript_digital_clock/demo.html)
